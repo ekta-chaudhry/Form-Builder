@@ -9,20 +9,24 @@
 <body>
     <div class="parent-div" id="builder-div">
         <h2 class="heading">Form Builder</h2>
-        <div>
-            <h3>Select Field Type</h3>
-            <select>
+        <div class="field-info">
+            <h3 class="field-heading">Select Field Type</h3>
+            <select id="select-input">
                 <option value="text" selected>Text</option>
                 <option value="checkbox">Checkbox</option>
                 <option value="radio">Radio Button</option>
+                <option value="button">Button</option>
             </select>
         </div>
-        <div>
-            <h3>Field Label</h3>
-            <input id="fieldLabelInput" type="text" placeholder="Enter field label">
+        <div class="field-info">
+            <h3 class="field-heading">Field Label</h3>
+            <input id="field-label-input" type="text" placeholder="Enter Field Label">
         </div>
-        <button onclick="addFieldToPreview()">Add Field</button>
+        <div class="add-field-div">
+            <button class="add-field-button" onclick="addFieldToPreview()">Add Field</button>
+        </div>
     </div>
+
     <div class="parent-div" id="preview-div">
         <h2 class="heading">Form Preview</h2>
     </div>

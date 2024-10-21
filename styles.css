@@ -1,4 +1,83 @@
 body {
     display:flex;
-    justify-content: space-around;
+    justify-content:space-around;
+    background-color: lightgray;
+}
+
+.parent-div {
+    margin-top: 70px;
+    width: 45%;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.heading {
+    text-align: center;
+    color: blueviolet;
+}
+
+.field-info {
+    height: 20%;
+    margin-left: 10px;
+}
+
+.field-heading {
+    color: #36454F;
+    margin-bottom: 5px;
+}
+
+#select-input, #field-label-input {
+    width: 90%;
+    border-radius: 5px;
+    height: 30px;
+    border-width: 1px;
+    text-decoration: solid #36454F;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.add-field-div {
+    display: flex;
+    justify-content: center;
+}
+.add-field-button {
+    margin-top: 40px;
+    width: 30%;
+    height: 40px;
+    border-radius: 15px;
+    border-width: 1px;
+    font-size: 17px;
+    font-weight: bold;
+    border-color: blueviolet;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    background-color: blueviolet;
+    color: white;
+    transition: background-color 0.3s, transform 0.01s;
+}
+
+.add-field-button:hover {
+    cursor:pointer;
+}
+
+.add-field-button:active{
+    transform: scale(0.95);
+}
+
+.preview-field-div {
+    margin-left: 50px;
+    padding-bottom: 15px;
+}
+
+.text-field {
+    border-radius: 5px;
+    border-width: 1px;
+    height: 28px;
+    width: 65%;
+}
+
+.field-label {
+    color:#36454F;
+    font-size: 18px;
+    color: #36454F;
 }

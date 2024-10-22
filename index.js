@@ -1,7 +1,7 @@
 let fieldCount = 0;
 function addFieldToPreview() {
-    if(fieldCount >= 7) {
-        alert("Maximum 5 fields can be added!");
+    if(fieldCount > 7) {
+        alert("Maximum 7 fields can be added!");
         return;
     }
 
